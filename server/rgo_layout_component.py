@@ -20,6 +20,4 @@ class rgo_component_debug:
     def setType(self,type):
         self.value[type]=type
 
-a=rgo_component_debug()
-print(a.value)
 

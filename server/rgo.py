@@ -35,10 +35,5 @@ class rgo_debug:
     def value(self):
         return{"header":self.header,"data":self.data}
 
-basic=rgo_debug("layout")
-btn1=rgo_component_debug(1,"btn1","button")
-btn2=rgo_component_debug(2,"btn2","button")
-basic.add(btn1)
-basic.add(btn2)
-print(basic.value)
+
 
